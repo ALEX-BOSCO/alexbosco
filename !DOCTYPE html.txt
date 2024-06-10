@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advogado - Nome do Advogado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004080;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #003366;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .container {
+            padding-bottom: 50px; /* Space for the footer */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nome do Advogado</h1>
+        <p>Advogado Especializado em Direito Civil</p>
+    </header>
+    <nav>
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#artigos">Artigos</a>
+        <a href="#casos">Casos de Sucesso</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Bem-vindo ao meu site!</h2>
+            <p>Como advogado dedicado, meu objetivo é fornecer orientação jurídica eficaz e eficiente para ajudar você a resolver seus problemas legais.</p>
+        </section>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Sou advogado especializado em Direito Civil, com vasta experiência em casos de família, contratos, responsabilidade civil e outros.</p>
+            <p>Tenho um compromisso firme em fornecer um serviço jurídico de alta qualidade, com foco no cliente e respeito à ética profissional.</p>
+        </section>
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <ul>
+                <li>Direito de Família</li>
+                <li>Direito Contratual</li>
+                <li>Responsabilidade Civil</li>
+                <li>Indenizações</li>
+                <li>Direito do Consumidor</li>
+            </ul>
+        </section>
+        <section id="artigos">
+            <h2>Artigos</h2>
+            <p>Compartilhando insights e artigos jurídicos relevantes.</p>
+            <ul>
+                <li><a href="#">Como resolver conflitos familiares de forma amigável</a></li>
+                <li><a href="#">Principais aspectos a serem considerados em contratos comerciais</a></li>
+                <li><a href="#">Entendendo os direitos do consumidor em casos de produtos defeituosos</a></li>
+            </ul>
+        </section>
+        <section id="casos">
+            <h2>Casos de Sucesso</h2>
+            <p>Veja alguns dos casos de sucesso em que eu representei meus clientes com sucesso:</p>
+            <ul>
+                <li><strong>Caso 1:</strong> Cliente X vs. Empresa Y - Indenização por danos morais.</li>
+                <li><strong>Caso 2:</strong> Cliente A vs. Cliente B - Divórcio consensual e partilha de bens.</li>
+                <li><strong>Caso 3:</strong> Cliente Z vs. Seguradora Q - Vitória em processo de indenização por acidente de trânsito.</li>
+            </ul>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+            <p>Informações do escritório:</p>
+            <p>Endereço: Rua Exemplo, 123<br>Telefone: (11) 1234-5678<br>Email: exemplo@advogado.com</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Nome do Advogado. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
